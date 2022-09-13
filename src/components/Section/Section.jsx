@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import Box from 'components/Box';
+
 const Section = ({ title, children }) => {
   return (
     <Box textAlign="center" as="section">
@@ -13,4 +14,5 @@ Section.prototype = {
   title: PropTypes.string.isRequired,
   children: PropTypes.string,
 };
+
 export default Section;
