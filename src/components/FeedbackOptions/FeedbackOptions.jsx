@@ -4,7 +4,7 @@ import Button from '../Button';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <Container display="flex" flex="5px">
+    <Container>
       {options.map(optionButton => (
         <Button
           key={optionButton}
